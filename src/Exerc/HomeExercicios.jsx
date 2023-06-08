@@ -7,6 +7,8 @@ import Exercicio03 from '../Exerc/Exercicio03'
 import Exercicio04 from '../Exerc/Exercicio04'
 import Exercicio05 from './Exercicio05'
 import Exercicio06 from './Exercicio06'
+import UseState from './UseState'
+import ExercicioUseState from './ExercicioUseState'
 
 const HomeExercicios = () => {
 
@@ -36,6 +38,12 @@ const HomeExercicios = () => {
       <hr />
       <h1>Exercicio 06</h1>
       <Exercicio06 />
+      <hr />
+      <h1>Exemplo 1 useState</h1>
+      <UseState />
+      <hr />
+      <h1>Exemplo 2 useState</h1>
+      <ExercicioUseState />
     </div>
   )
 }
