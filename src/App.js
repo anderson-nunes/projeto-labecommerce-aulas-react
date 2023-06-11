@@ -1,15 +1,14 @@
 
 import HomeExercicios from "./Exerc/HomeExercicios";
 import HomeExercicioUseState from "./ExercicioUseState/HomeExercicioUseState";
+import Home from "./pages/Home";
 
 
 function App() {
   return (
-    <div>
-      <h1>Lista de exercício e exemplos</h1>
-      {/* <HomeExercicios /> */}
-      <HomeExercicioUseState />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 

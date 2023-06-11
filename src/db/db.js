@@ -22,6 +22,7 @@ export const db = [
     id: 1,
     category: 'Produto',
     price: 250.00,
+    rat: 4.2, // criar para os demais
     stoke: 5,
     description: 'The Mandalorian e Baby Yoda Grogu Interativos',
     image: produto01
