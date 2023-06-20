@@ -5,7 +5,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { BsCart } from "react-icons/bs";
 
 // IMAGE
-import logoStar from '../utils/logoStar.png'
+import logo from '../utils/logo.png'
 import { ProductContext } from "../hooks/useProductContext";
 
 const Header = () => {
@@ -19,15 +19,15 @@ const Header = () => {
   const { searchProducts, setSearchProducts } = useContext(ProductContext)
 
   return (
-    <header>
-      <nav className="flex items-center justify-between flex-wrap bg-black shadow-md p-2 w-full z-10 top-0">
+    <header className="fixed w-full top-0">
+      <nav className="flex items-center justify-between flex-wrap bg-gray-900 shadow-md p-6 w-full z-10 top-0">
         <div className="flex items-center text-white ml-3 ">
           <div>
             <span>
               <img
-                src={logoStar}
+                src={logo}
                 alt="Logo origami em forma de passário nas cores azul e vermelho"
-                className="w-28 h-28"
+                className="w-29 h-28"
               />
             </span>
           </div>

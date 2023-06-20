@@ -1,181 +1,169 @@
-import produto01 from '../utils/produto01.png'
-import produto02 from '../utils/produto02.png'
-import produto03 from '../utils/produto03.png'
-import produto04 from '../utils/produto04.png'
-import produto05 from '../utils/produto05.jpg'
-import produto06 from '../utils/produto06.png'
-import produto07 from '../utils/produto07.png'
-import produto08 from '../utils/produto08.png'
-import produtoLego09 from '../utils/produtoLego09.png'
-import produtoLego10 from '../utils/produtoLego10.jpg'
-import produtoLego11 from '../utils/produtoLego11.png'
-import produtoLego12 from '../utils/produtoLego12.png'
-import produtoLego13 from '../utils/produtoLego13.jpg'
-import produtoLego14 from '../utils/produtoLego14.jpg'
-import produtoLego15 from '../utils/produtoLego15.jpg'
-import produtoLego16 from '../utils/produtoLego16.jpg'
+
+import iphone01 from '../utils/iphone01.png'
+import iphone02 from '../utils/iphone02.png'
+import iphone04 from '../utils/iphone04.png'
+import iphone05 from '../utils/iphone05.png'
+import iphone06 from '../utils/iphone06.png'
+import iphone07 from '../utils/iphone07.png'
+import appleWatch02 from '../utils/appleWatch02.png'
+import appleWatch03 from '../utils/appleWatch03.png'
+import appleWatch04 from '../utils/appleWatch04.png'
+import appleWatch05 from '../utils/appleWatch05.png'
+import airPods01 from '../utils/airPods01.png'
+import airPods02 from '../utils/airPods02.jpg'
+import mac01 from '../utils/mac01.png'
+import mac02 from '../utils/mac02.png'
+import ipad01 from '../utils/ipad01.png'
+import ipad02 from '../utils/ipad02.png'
 
 export const db = [
 
   {
-    name: 'Produto 1',
-    id: 1,
-    category: 'Produto',
-    price: 250.00,
-    rat: 4.2, // criar para os demais
-    stoke: 5,
-    description: 'The Mandalorian e Baby Yoda Grogu Interativos',
-    image: produto01
-  },
-
-  {
-    name: 'Produto 2',
-    id: 2,
-    category: 'Produto',
-    price: 299.99,
+    name: 'Iphone 12',
+    id: 17,
+    category: 'Celular',
+    price: 4.139,
     stoke: 8,
-    description: 'The Mandalorian e Baby Yoda Grogu Interativos',
-    image: produto02
+    description: 'Iphone 12 128GB',
+    image: iphone02
   },
-
   {
-    name: 'Produto 3',
-    id: 3,
-    category: 'Produto',
-    price: 249.99,
-    stoke: 4,
-    description: 'Boba Fett',
-    image: produto03
-  },
-
-  {
-    name: 'Produto 4',
-    id: 4,
-    category: 'Produto',
-    price: 289.99,
-    stoke: 6,
-    description: 'Storm Trooper Star Wars',
-    image: produto04
-  },
-
-  {
-    name: 'Produto 5',
-    id: 5,
-    category: 'Produto',
-    price: 299.99,
-    stoke: 10,
-    description: 'The Mandalorian',
-    image: produto05
-  },
-
-  {
-    name: 'Produto 6',
-    id: 6,
-    category: 'Produto',
-    price: 289.99,
+    name: 'Iphone 12',
+    id: 17,
+    category: 'Celular',
+    price: 4.139,
     stoke: 8,
-    description: 'Produto Star Wars',
-    image: produto06
+    description: 'Iphone 12 Mini 128GB',
+    image: iphone01
   },
 
   {
-    name: 'Produto 7',
-    id: 7,
-    category: 'Produto',
-    price: 199.99,
-    stoke: 7,
-    description: 'Baby Yoda',
-    image: produto07
-  },
-
-  {
-    name: 'Produto 8',
-    id: 8,
-    category: 'Produto',
-    price: 320.00,
-    stoke: 5,
-    description: 'Baby Yoda',
-    image: produto08
-  },
-
-  {
-    name: 'Produto 9',
-    id: 9,
-    category: 'Produto',
-    price: 349.99,
-    stoke: 12,
-    description: 'Produto Star Wars',
-    image: produtoLego09
-  },
-
-  {
-    name: 'Produto 10',
-    id: 10,
-    category: 'Produto',
-    price: 129.99,
-    stoke: 10,
-    description: 'Produto Star Wars',
-    image: produtoLego10
-  },
-
-  {
-    name: 'Produto 11',
-    id: 11,
-    category: 'Produto',
-    price: 299.99,
-    stoke: 4,
-    description: 'Produto Star Wars',
-    image: produtoLego11
-  },
-
-  {
-    name: 'Produto 12',
-    id: 12,
-    category: 'Produto',
-    price: 299.99,
-    stoke: 5,
-    description: 'Produto Star Wars',
-    image: produtoLego12
-  },
-
-  {
-    name: 'Produto 13',
-    id: 13,
-    category: 'Produto',
-    price: 249.99,
-    stoke: 6,
-    description: 'Produto Star Wars',
-    image: produtoLego13
-  },
-
-  {
-    name: 'Produto 14',
-    id: 14,
-    category: 'Produto',
-    price: 299.99,
-    stoke: 12,
-    description: 'Produto Star Wars',
-    image: produtoLego14
-  },
-
-  {
-    name: 'Produto 15',
-    id: 15,
-    category: 'Produto',
-    price: 289.99,
-    stoke: 10,
-    description: 'Produto Star Wars',
-    image: produtoLego15
-  },
-
-  {
-    name: 'Produto 16',
-    id: 16,
-    category: 'Produto',
-    price: 199.99,
+    name: 'Iphone 13',
+    id: 17,
+    category: 'Celular',
+    price: 7.499,
     stoke: 8,
-    description: 'Produto Star Wars',
-    image: produtoLego16
+    description: 'Iphone 13 Pro 256GB',
+    image: iphone04
+  },
+  {
+    name: 'Iphone 13',
+    id: 17,
+    category: 'Celular',
+    price: 4.399,
+    stoke: 8,
+    description: 'Iphone 13 128GB',
+    image: iphone05
+  },
+  {
+    name: 'Iphone 14',
+    id: 17,
+    category: 'Celular',
+    price: 4.999,
+    stoke: 8,
+    description: 'Iphone 14 128GB',
+    image: iphone06
+  },
+  {
+    name: 'Iphone 14',
+    id: 17,
+    category: 'Celular',
+    price: 8.729,
+    stoke: 8,
+    description: 'Iphone 14 Pro Max 128GB',
+    image: iphone07
+  },
+  {
+    name: 'Apple Watch',
+    id: 17,
+    category: 'Relogio',
+    price: 3.599,
+    stoke: 8,
+    description: 'Apple Watch S7',
+    image: appleWatch02
+  },
+  {
+    name: 'Apple Watch',
+    id: 17,
+    category: 'Relogio',
+    price: 2.159,
+    stoke: 8,
+    description: 'Apple Watch SE',
+    image: appleWatch03
+  },
+
+  {
+    name: 'Apple Watch',
+    id: 17,
+    category: 'Relogio',
+    price: 2.159,
+    stoke: 8,
+    description: 'Apple Watch SE',
+    image: appleWatch04
+  },
+  {
+    name: 'Apple Watch',
+    id: 17,
+    category: 'Relogio',
+    price: 4.199,
+    stoke: 8,
+    description: 'Apple Watch S8',
+    image: appleWatch05
+  },
+  {
+    name: 'AirPods',
+    id: 17,
+    category: 'Fone',
+    price: 2.599,
+    stoke: 8,
+    description: 'AirPods Pro',
+    image: airPods01
+  },
+  {
+    name: 'AirPods',
+    id: 17,
+    category: 'Fone',
+    price: 1.399,
+    stoke: 8,
+    description: 'AirPods 2',
+    image: airPods02
+  },
+  {
+    name: 'MacBook Air',
+    id: 17,
+    category: 'Notebook',
+    price: 7.759,
+    stoke: 8,
+    description: 'MacBook Air',
+    image: mac01
+  },
+
+  {
+    name: 'MacBook Pro',
+    id: 17,
+    category: 'Notebook',
+    price: 12.499,
+    stoke: 8,
+    description: 'MacBook Pro',
+    image: mac02
+  },
+  {
+    name: 'Ipad',
+    id: 17,
+    category: 'Ipad',
+    price: 7.799,
+    stoke: 8,
+    description: 'Ipad Pro',
+    image: ipad01
+  },
+  {
+    name: 'Ipad',
+    id: 17,
+    category: 'Ipad',
+    price: 7.799,
+    stoke: 8,
+    description: 'Ipad Pro',
+    image: ipad02
   },
 
 ]
